@@ -1,0 +1,38 @@
+.maindiv{
+	height: auto;
+	width: 90%;
+	border: 10px solid black;
+	margin: 10px;
+	padding: 20px;
+	display: inline-block;
+}
+
+table{
+	width: 60%;
+	margin-left: 300px;
+	border: 1px solid black;
+  border-collapse: collapse;
+
+}
+ tr {
+  	border: 1px solid black;
+}
+
+td.td-data{
+	  	border: 1px solid black;
+	  	width: 70px;
+
+}
+
+.data > div {
+	width: 100%;
+}
+.deleteCart span, .updateCart span{
+    background: red;
+    padding: 2px;
+    border-radius: 3px;
+}
+.deleteCart span i, .updateCart span i{
+	color: white;
+    font-size: 15px;
+}

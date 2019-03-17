@@ -1,0 +1,80 @@
+.topBar{
+	width: 100%;
+	height: 40px;
+	background-color: gray;
+	padding-top: 10px;
+	color: white;
+}
+.homeLink{
+	float: right;
+	margin-right: 300px;
+	text-decoration: none;
+	color: white;
+}
+
+span{
+	font-size: 15px;
+}
+
+.mainDiv{
+	height: auto;
+	width: 90%;
+	border: 10px solid black;
+	margin: 10px;
+	display: inline-block;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  height: 350px;
+  width: 300px;
+}
+.innerDiv{
+	height: 200px;
+	width: 200px;
+	background-color: #D8267C;
+	margin-left: 35px;
+	margin-top: 5px;
+	padding: 10px;
+
+}
+
+
+.btn{
+	height: 40px;
+	width: 100px;
+	background-color: #2355B2;
+	color: white;
+	
+	
+}
+
+.div1{
+	height: 350px;
+	width: 400px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+
+.navLink1{
+	text-decoration: none;
+	color: white;
+	padding-left: 200px;
+}
+.navLink2{
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+}

@@ -1,0 +1,79 @@
+
+
+.wrapper {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 6fr; 
+    grid-column-gap: 1em;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 80%; 
+    grid-row-gap: 20px;
+    grid-auto-rows: minmax(80px, auto); 
+    margin: 20%;
+}
+
+.prod {
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    color: white;
+}
+
+#prod-0{
+    background-color: purple;
+}
+
+#prod-1 {
+    background-color: blue;
+}
+
+#prod-2{
+    background-color: skyblue;
+}
+
+#prod-3{
+    background-color: gold;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.product-image {
+    margin-top: 30%;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(126, 214, 126);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.product-detail {
+    text-align: left;
+    color: black;
+    margin-top: 10%; 
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 20px;
+}
+
+hr{
+    color: gray;
+}
+
+.btn1{
+    height: 40px;
+    width: 100px;
+    background-color: #2355B2;
+    color: white;
+    margin-left: 100px;
+}
+
